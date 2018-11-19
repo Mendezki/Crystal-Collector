@@ -1,0 +1,57 @@
+body {
+    background: url("../images/diagonal_striped_brick.png");
+    font-family: 'Nunito', sans-serif;
+}
+h1 {
+   color: royalblue; 
+   font-weight: 800;
+   font-size: 50px; 
+   margin: auto;
+   padding: 20px 20px 20px 90px;
+   background: white;
+   border-bottom: solid royalblue; 
+}
+#instructions, #gemTotal {
+    color: white;
+    background: rgb(187, 186, 186);
+    padding: 10px;
+    margin-top: 30px;
+    font-style: oblique;
+    border-radius: 15px;
+    border: solid aqua; 
+}
+#randomNumber, #results, #scoreBanner {
+    color: white;
+    background: royalblue;
+    border-radius: 15px;
+    border: solid rgb(187, 186, 186);
+    margin: 10px;
+    width: 200px;
+    padding: 20px;
+    font-size: 20px;
+    font: bold;
+
+}
+#crystal1:hover,#crystal2:hover,#crystal3:hover,#crystal4:hover {
+    border: none;
+}
+#crystal1 {
+    margin: 15px;
+    border: solid crimson; 
+    cursor: pointer;
+}
+#crystal2 {
+    margin: 15px;
+    border: solid purple; 
+    cursor: pointer;
+}
+#crystal3 {
+    margin: 15px;
+    border: solid yellowgreen;
+    cursor: pointer; 
+}
+#crystal4 {
+    margin: 15px;
+    border: solid teal; 
+    cursor: pointer;
+}
